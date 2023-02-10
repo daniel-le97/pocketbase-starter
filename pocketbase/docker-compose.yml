@@ -5,4 +5,4 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./pb_data:/app/pb_data
+      - cldyaysc000a0t8agihcwj2to-pb_data:/app/pb_data
