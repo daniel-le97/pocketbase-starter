@@ -14,6 +14,9 @@ RUN go mod download
 
 COPY *.go ./
 
+# Add this line to copy the "static" folder into the image
+COPY static /app/static
+
 RUN go build -o pb-build
 
 EXPOSE 8080
